@@ -1,0 +1,130 @@
+/*CSS for Assignment 3*/
+body {
+	background-image: url("../image/img-1.jpg");
+	font: 14px arial, sans-serif;
+	text-align: center;	
+}
+
+form {
+	margin: 20px auto;
+	width: 420px;
+	border: 4px double black;
+}
+input {
+	padding: 10px;
+	text-align: center;
+}
+
+textarea {
+	padding: 8px;
+	font-size: 12px;
+	text-align: center;
+}
+
+input[type="text"] {
+	display:block;
+	margin:5px;
+	text-align: center;
+	width: 90%;
+	border: 2px solid black;
+}
+
+input[type="email"] {
+	display:block;
+	margin:5px;
+	text-align: center;
+	width: 90%;
+	border: 2px solid black;
+}
+
+input[type="password"] {
+	display:block;
+	margin:5px;
+	text-align: center;
+	width: 90%;
+	border: 2px solid black;
+}
+
+input[type="tel"] {
+	display:block;
+	margin:5px;
+	text-align: center;
+	width: 90%;
+	border: 2px solid black;
+}
+
+input[type="tel"] {
+	display:block;
+	margin:5px;
+	text-align: center;
+	width: 90%;
+	border: 2px solid black;
+}
+
+input[type="url"] {
+	display:block;
+	margin:5px;
+	text-align: center;
+	width: 90%;
+	border: 2px solid black;
+}
+
+input[type="date"] {
+	display:block;
+	margin:5px;
+	text-align: center;
+	width: 90%;
+	border: 2px solid black;
+}
+
+button[type="submit"] {
+	display:inline-block;
+	margin:5px;
+	text-align: center;
+	width: 30%;
+	background: lightblue;
+	border: 2px solid black;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+button[type="reset"] {
+	display:inline-block;
+	margin:5px;
+	text-align: center;
+	width: 30%;
+	background: lightblue;
+	border: 2px solid black;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+input[id="city"] {
+	display:block;
+	margin:5px;
+	text-align: center;
+	width: 90%;
+	border: 2px solid black;
+}
+
+textarea[name="summary"] {
+	display:block;
+	margin:5px;
+	text-align: center;
+	width: 90%;
+	border: 2px solid black;
+}
+
+select[id="province"] {
+	display:block;
+	margin:5px;
+	width: 90%;
+	border: 2px solid black;
+}
+
+select[id="country"] {
+	display:block;
+	margin:5px;
+	width: 90%;
+	border: 2px solid black;
+}
