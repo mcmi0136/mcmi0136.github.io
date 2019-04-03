@@ -84,8 +84,36 @@
 		</li>
 		<!--Question 13 -->
 		<li>
-			<p><strong>Qus:</strong> </p>
-			<p><strong>Ans:</strong> </p>
+			<p><strong>Qus:</strong> Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px.</strong> </p>
+			<p><strong>Ans:</strong> #container { margin: 0 auto; }</p>
+			<p>.box { width: 200px; height: 200px; padding-top: 200px; text-align: center;}</p>
+		</li>
+		<!-- Question 14 -->
+		<li>
+			<p><strong>Qus:</strong>Create CSS keyframes block called "spin" that rotates an element.</p>
+			<p><strong>Ans:</strong> 
+
+				@keyframes spin from { 
+				transform: rotate(0deg); to { 
+				transform: rotate(360deg); 
+					} 
+				}
+		</li>
+		<!-- Question 15 -->
+		<li>
+			<p><strong>Qus:</strong> Create CSS animation block to rotate an element that has the following properties : class "rotate-me". It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin".</p>
+			<p><strong>Ans:</strong> 
+			 .rotate-me { position: absolute; left: 50%; top: 50%; width: 150px; height: 150px;
+				margin: -75px 0 0 -75px; <br>
+				animation: <br>
+				spin 0.5s linear infinite, <br>
+				animation-iteration-count: 5; <br>
+				@keyframes spin from { <br>
+				transform: rotate(0deg); to { <br>
+				transform: rotate(360deg); <br>
+					} <br>
+				}</p> <br>
+			
 		</li>
 	</ol>
 </body>
