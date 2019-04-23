@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Final</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/fonts.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+	<header class="site-header" id="main-header">
+		<div class="top-header">
+			<div class="logo-container">
+				<h1>MY LOGO</h1>
+			</div>
+		</div>
+		<!-- main navigation -->
+		<div>
+		<nav class="main-nav-container">
+			<ul class="main-nav clearfix">
+				<li id="box-1">
+					<a href="home.html">Home</a>
+				</li>
+				<li id="box-2">
+					<a href="about.html">About</a>
+				</li>
+				<li id= "box-3">
+					<a href="schedule.html">Schedule</a>
+				</li>
+				<li id="box-4">
+					<a href="portfolio.html">Portfolio</a>
+				</li>
+				<li id="box-5">
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+		<main class="main clearfix" id="main">
+		<section class="main site-content">
+			<h2>ABOUT</h2>
+			<article class="main-content">
+				<p>Souffle bonbon sweet roll. Tootsie roll chocolate gummies toffee topping jelly donut. Apple pie carrot cake apple pie lollipop chocolate lollipop. Gummi bears sweet roll pastry cookie donut danish pudding sweet roll brownie. Fruitcake sweet roll pie liquorice danish sesame snaps dessert jelly beans. Pie topping cupcake caramels. Gingerbread gummies sugar plum powder biscuit jelly-o pastry lemon drops cookie. Dessert macaroon jelly beans tart cake cotton candy bonbon donut. Wafer cupcake topping jelly jelly-o bonbon cake. Candy canes jelly-o danish brownie biscuit muffin caramels. Marshmellow powder chocolate bar liquorice tiramisu. Biscuit souffle sweet donut candy canes brownie tart muffin. </p>
+				<p>Souffle bonbon sweet roll. Tootsie roll chocolate gummies toffee topping jelly donut. Apple pie carrot cake apple pie lollipop chocolate lollipop. Gummi bears sweet roll pastry cookie donut danish pudding sweet roll brownie. Fruitcake sweet roll pie liquorice danish sesame snaps dessert jelly beans. Pie topping cupcake caramels. Gingerbread gummies sugar plum powder biscuit jelly-o pastry lemon drops cookie. Dessert macaroon jelly beans tart cake cotton candy bonbon donut. Wafer cupcake topping jelly jelly-o bonbon cake. Candy canes jelly-o danish brownie biscuit muffin caramels. Marshmellow powder chocolate bar liquorice tiramisu. Biscuit souffle sweet donut candy canes brownie tart muffin. </p>
+			</article>
+		</section>
+		<section class="main site-sidebar">
+			<aside class="sidebar-container clearfix">
+				<div class="sidebar">
+					<img src="img/img-1.jpg" alt="Image 1" width="325" height="235">
+				</div>
+			</aside>
+		</section>
+			<h2 id="table-header">SCHEDULE</h2>	
+			<br>			
+				<button id="loadTable">LOAD SCHEDULE</button>
+			<section>
+				<div id="json_table">
+
+				</div>
+			</section>
+		<!-- table section in Json> -->
+			<div class="container">
+			<h3>EDIT INFORMATION</h3>
+  			<form id="profile-form" action="somebody.php" method="post" class="profile-form">
+  				<div class="row">
+    				<div class="col-25">
+     					<label for="name">Name:</label>
+    				</div>
+   					<div class="col-75">
+      					<input type="text" id="name" name="name" placeholder="John Doe" required>
+    				</div>
+				</div>
+				<div class="row">
+				    <div class="col-25">
+				      	<label for="email">Email:</label>
+				    </div>
+				    <div class="col-75">
+				      <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+				   	</div>
+				</div>
+				<div class="row">
+    				<div class="col-25">
+     					<label for="name">Address:</label>
+    				</div>
+   					<div class="col-75">
+      					<input type="text" id="address" name="address" placeholder="123 Any Street" required>
+    				</div>
+				</div>
+				<div class="row">
+    				<div class="col-25">
+     					<label for="name">City:</label>
+    				</div>
+   					<div class="col-75">
+      					<input type="text" id="city" name="city" placeholder="Your city" required>
+    				</div>
+				</div>
+				<div class="row">
+				    <div class="col-25">
+				      <label for="province">Province:</label>
+				    </div>
+				    <div class="col-75">
+				      <select id="province" name="province">
+				            <option value="">Select a Province</option>
+  							<option value="BC">British Columbia</option>
+ 						 	<option value="AB">Alberta</option>
+ 							<option value="SK">Saskatchewan</option>
+ 							<option value="MB">Manitoba</option>
+  							<option value="ON">Ontario</option>
+  							<option value="QC">Quebec</option>
+ 						 	<option value="NS">Nova Scotia</option>
+  							<option value="NB">New Brunswick</option>
+  							<option value="NL">Newfoundland and Labrador</option>
+ 							<option value="PE">Prince Edward Island</option>
+  							<option value="YT">Yukon</option>
+  							<option value="NT">Northwest Territories</option>
+	 						<option value="NU">Nunavut</option>
+				      </select>
+				    </div>
+				</div>
+				<div class="row">
+    				<div class="col-25">
+     					<label for="postal-code">Postal Code:</label>
+    				</div>
+   					<div class="col-75">
+	    				<input type="text" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" id="postal-code" placeholder= "A1A-1A1" required>
+  					</div>
+  				</div>
+				<div class="row">
+					 <button type="submit" id="btn">SUBMIT</button>
+				</div>
+			</form>
+		</div>	
+		<section>
+			<aside>
+				<h3 id="profile-info">PROFILE INFO</h3>
+				<div class="container" id="results">
+ 					<img src="img/img-2.jpg" alt="Image 2" width="135" height="135">
+ 					<h5><span id="name_results">John Doe</span></h5>
+  					<p><span id="email_results">JohnDoe@algonquincollege.com</span></p>
+  					<p><span id="address_results">1385 Woodroffe Ave</span>, <span
+  					id="city_results">Nepean</span>,</p>
+  					<p><span id="province_results">ON</span>, <span id="pc_results">K2G 1V8</span></p>
+  					<a href="mailto:someone@example.com"><i class="far fa-envelope fa-3x"></i></a>
+  				</div>
+			</aside>
+		</section>
+	</main>
+		<footer class="footer" id="footer">
+		<div class="footer-container">
+			<section class="col-footer links">
+				<h4>QUICK LINKS</h4>
+				<nav>
+					<ul>
+						<li>
+							<a href="home.html">Home</a>
+						</li>
+						<li>
+							<a href="about.html">About</a>
+						</li>
+						<li>
+							<a href="schedule.html">Schedule</a>
+						</li>
+						<li>
+							<a href="portfolio.html">Portfolio</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			<section class="col-footer social-media">
+				<h4 id="social-media-title">FOLLOW US</h4>
+				<nav>
+					<ul>
+						<li>
+							<a href="http://www.facebook.com/" target="new"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li>
+							<a href="http://www.youtube.com/" target="new"><i class="fab fa-youtube"></i></a>
+						</li>
+						<li>
+							<a href="http://www.twitter.com/" target="new"><i class="fab fa-twitter"></i></a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+		</div>
+			<section class="col-footer company-info">
+				<h4 id="address-info">ADDRESS</h4>
+				<address>
+					<p>1385 Woodroffe Ave.</p>
+					<p>Ottawa, ON K2G 1V8</p>
+					<p>Canada</p>
+				</address>
+			</section>
+	</footer>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
